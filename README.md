@@ -21,26 +21,22 @@ Deployment: The trained model was deployed to predict housing prices for new ins
 Python 3.x
 Jupyter Notebook or any Python IDE
 Required libraries specified in requirements.txt
-Usage
-Clone the repository:
 
-bash
-Copy code
-git clone https://github.com/yourusername/california-housing-prediction.git
-Navigate to the project directory:
+## Usage
+1. Clone the repository:
 
-bash
-Copy code
-cd california-housing-prediction
-Install the required libraries:
-
-Copy code
-pip install -r requirements.txt
-Run the Jupyter Notebook california_housing_prediction.ipynb to train the model and make predictions.
+   ```bash
+          git clone https://github.com/imvanshika/Linear-Regression-Model-.git
+2. Navigate to the project directory:
+   ```bash
+         cd california-housing-prediction
+3. Install the required libraries:
+   ```bash
+          pip install -r requirements.txt
+Run the Jupyter Notebook Code to train the model and make predictions.
 
 ### Results
 The trained Linear Regression model achieved satisfactory results with the following performance metrics:
 
-Mean Absolute Error (MAE): [Insert MAE value]
-Mean Squared Error (MSE): [Insert MSE value]
-Root Mean Squared Error (RMSE): [Insert RMSE value]
+Mean Absolute Error (MAE): [0.60]
+Mean Squared Error (MSE): [0.65]
